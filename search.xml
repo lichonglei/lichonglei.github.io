@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[linuxmint 安装配置]]></title>
+    <url>%2F2018%2F08%2F01%2Flinuxmint-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%2F</url>
+    <content type="text"><![CDATA[昨天打算尝试下在笔记本搞下爬虫。由于不知道系统内置python2.7,是因为有许多软件依赖他。我一时卸载掉python2.7,安装python3.5,删除许多依赖，导致开机进不了桌面，甚至命令行窗口都是黑屏没有命令提示符。没办法，我选择重装。 这里记录下每次重装都要做的几项配置，省的每次都要百度。 系统：linuxmint xfce4 1，中文输入法 2，shadowsocks 安装 3, chrome 安装 4, gtk主题和图标 numix screenfetch 5, docker安装 6，tmux oh-my-zsh 7, phpstorm 安装 8，JAVA JDK 9, eclipse]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[网站短信验证码的解决方案]]></title>
     <url>%2F2018%2F07%2F28%2F%E7%BD%91%E7%AB%99%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
     <content type="text"><![CDATA[用户点击验证码获取请求，后台调用第三方接口发送验证码，并将手机号和验证码以及发送时间记录下来，在用户提交的时候进行验证是否一致，以及是否过期失效的问题。过去我所在的地方就是采用存入数据库记录。仅此而已，在现在公司看到的项目就更细致了一些。1，区分线测试和线上环境，如果是测试环境则不调用接口发送请求。2，设置一个请求的白名单，记录当前进行请求的控制器名和方法名，如果是其他地方调用，则判定为非法请求。（安全考虑）3，通过缓存设置用户当天可以发送短信的次数，以及60秒发送一次。4，手机号，验证码，发送时间，存入session。]]></content>
