@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="以往提交代码的时候,一般是分三步. 1, git add * 2, git commit -m “fix one’s bug” 3, git push origin master 可以省略一步，变为， 1，git commit -am “fix one’s bug”   // -a 即指的是add 2, git push origin master 也可以， 1，git add * &amp;amp;&amp;a">
+<meta name="description" content="以往提交代码的时候,一般是分三步.123451, git add *2, git commit -m &amp;quot;fix one&amp;apos;s bug&amp;quot;3, git push origin master 可以省略一步，变为，1231，git commit -am &amp;quot;fix one&amp;apos;s bug&amp;quot;   // -a 即指的是add2, git push origi">
 <meta property="og:type" content="article">
 <meta property="og:title" content="git commit message 50&#x2F;70原则">
 <meta property="og:url" content="https://lihenhao.com/2018/08/30/git-commit-message-50-70原则/index.html">
 <meta property="og:site_name" content="李很好">
-<meta property="og:description" content="以往提交代码的时候,一般是分三步. 1, git add * 2, git commit -m “fix one’s bug” 3, git push origin master 可以省略一步，变为， 1，git commit -am “fix one’s bug”   // -a 即指的是add 2, git push origin master 也可以， 1，git add * &amp;amp;&amp;a">
+<meta property="og:description" content="以往提交代码的时候,一般是分三步.123451, git add *2, git commit -m &amp;quot;fix one&amp;apos;s bug&amp;quot;3, git push origin master 可以省略一步，变为，1231，git commit -am &amp;quot;fix one&amp;apos;s bug&amp;quot;   // -a 即指的是add2, git push origi">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-30T09:54:48.346Z">
+<meta property="og:updated_time" content="2018-08-30T09:59:28.303Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git commit message 50&#x2F;70原则">
-<meta name="twitter:description" content="以往提交代码的时候,一般是分三步. 1, git add * 2, git commit -m “fix one’s bug” 3, git push origin master 可以省略一步，变为， 1，git commit -am “fix one’s bug”   // -a 即指的是add 2, git push origin master 也可以， 1，git add * &amp;amp;&amp;a">
+<meta name="twitter:description" content="以往提交代码的时候,一般是分三步.123451, git add *2, git commit -m &amp;quot;fix one&amp;apos;s bug&amp;quot;3, git push origin master 可以省略一步，变为，1231，git commit -am &amp;quot;fix one&amp;apos;s bug&amp;quot;   // -a 即指的是add2, git push origi">
 
 
 
@@ -365,22 +365,15 @@
       
 
       
-        <p>以往提交代码的时候,一般是分三步.</p>
-<p>1, git add *</p>
-<p>2, git commit -m “fix one’s bug”</p>
-<p>3, git push origin master</p>
-<p>可以省略一步，变为，</p>
-<p>1，git commit -am “fix one’s bug”   // -a 即指的是add</p>
-<p>2, git push origin master</p>
-<p>也可以，</p>
-<p>1，git add * &amp;&amp; git commit -m “gix one’s bug” &amp;&amp; git push origin master .</p>
+        <p>以往提交代码的时候,一般是分三步.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1, git add *</span><br><span class="line"></span><br><span class="line">2, git commit -m &quot;fix one&apos;s bug&quot;</span><br><span class="line"></span><br><span class="line">3, git push origin master</span><br></pre></td></tr></table></figure></p>
+<p>可以省略一步，变为，<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1，git commit -am &quot;fix one&apos;s bug&quot;   // -a 即指的是add</span><br><span class="line"></span><br><span class="line">2, git push origin master</span><br></pre></td></tr></table></figure></p>
+<p>也可以，<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1，git add * &amp;&amp; git commit -m &quot;gix one&apos;s bug&quot; &amp;&amp; git push origin master .</span><br></pre></td></tr></table></figure></p>
 <p>(当然这样的问题，打字还是多，其次如果之前提交过，再提交，前面的返回false，后面就不会触发)</p>
-<p>下面再说，提交信息的填写。</p>
-<p>1，why<br>主要是方便以后复查代码，容易快速的把握整体，包括团队开发中的合作。</p>
+<p>下面再说，提交信息的填写。<br><a id="more"></a><br>1，why<br>主要是方便以后复查代码，容易快速的把握整体，包括团队开发中的合作。</p>
 <p>2，how</p>
 <p>在git bash 里，git commit -m ‘ (加一个单引号，这样可以添加多行，结束以一个单引号结束)</p>
 <p>3，方法（50、70）</p>
-<p>首先，为什么做出修改。（简短描述）</p>
+<p>首先，为什么做出修改。（简短描述,50以内,以下70以内）</p>
 <p>==空格（用于排版，方便阅读）</p>
 <p>此次，如何改的？（改了哪些东西）</p>
 <p>==空格</p>
