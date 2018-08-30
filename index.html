@@ -276,6 +276,167 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://lihenhao.com/2018/08/30/git-commit-message-50-70原则/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lihenhao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="李很好">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/30/git-commit-message-50-70原则/" itemprop="url">git commit message 50/70原则</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-30T17:43:31+08:00">
+                2018-08-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/git/" itemprop="url" rel="index">
+                    <span itemprop="name">git</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>以往提交代码的时候,一般是分三步.</p>
+<p>1, git add *</p>
+<p>2, git commit -m “fix one’s bug”</p>
+<p>3, git push origin master</p>
+<p>可以省略一步，变为，</p>
+<p>1，git commit -am “fix one’s bug”   // -a 即指的是add</p>
+<p>2, git push origin master</p>
+<p>也可以，</p>
+<p>1，git add * &amp;&amp; git commit -m “gix one’s bug” &amp;&amp; git push origin master .</p>
+<p>(当然这样的问题，打字还是多，其次如果之前提交过，再提交，前面的返回false，后面就不会触发)</p>
+<p>下面再说，提交信息的填写。</p>
+<p>1，why<br>主要是方便以后复查代码，容易快速的把握整体，包括团队开发中的合作。</p>
+<p>2，how</p>
+<p>在git bash 里，git commit -m ‘ (加一个单引号，这样可以添加多行，结束以一个单引号结束)</p>
+<p>3，方法（50、70）</p>
+<p>首先，为什么做出修改。（简短描述）</p>
+<p>==空格（用于排版，方便阅读）</p>
+<p>此次，如何改的？（改了哪些东西）</p>
+<p>==空格</p>
+<p>最后，会对哪些模块产生影响。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lihenhao.com/2018/08/22/关于应试的举措/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1598,157 +1759,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lihenhao.com/2018/07/26/thinkphp5常用功能记录/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="lihenhao">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="李很好">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/26/thinkphp5常用功能记录/" itemprop="url">thinkphp5常用功能记录</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-26T13:49:31+08:00">
-                2018-07-26
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/工作/" itemprop="url" rel="index">
-                    <span itemprop="name">工作</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>1,扩展请求类 \think\Request<br>  用于请求微信接口，短信接口等第三方接口。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line">     * 设置当前请求绑定的对象实例</span><br><span class="line">     * @access public</span><br><span class="line">     * @param string $url 请求地址</span><br><span class="line">     * @param bool  $https 是否https协议</span><br><span class="line">     * @param string $method 请求方式</span><br><span class="line">     * @param array $data 请求数据</span><br><span class="line">     * @return json</span><br><span class="line">     */</span><br><span class="line">    public function send($url, $https=true, $method=&apos;get&apos;, $data=null)</span><br><span class="line">    &#123;</span><br><span class="line">        //初始化curl</span><br><span class="line">        $ch = curl_init($url);</span><br><span class="line">        //字符串不直接输出，进行一个变量的存储</span><br><span class="line">        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);</span><br><span class="line">        //https请求</span><br><span class="line">        if ($https === true) &#123;</span><br><span class="line">            //确保https请求能够请求成功</span><br><span class="line">            curl_setopt($ch,CURLOPT_SSL_VERIFYPEER,false);</span><br><span class="line">            curl_setopt($ch,CURLOPT_SSL_VERIFYHOST,false);</span><br><span class="line">        &#125;</span><br><span class="line">        //post请求</span><br><span class="line">        if ($method == &apos;post&apos;) &#123;</span><br><span class="line">            curl_setopt($ch,CURLOPT_POST,true);</span><br><span class="line">            curl_setopt($ch,CURLOPT_POSTFIELDS,$data);</span><br><span class="line">        &#125;</span><br><span class="line">        //发送请求</span><br><span class="line">        $str = curl_exec($ch);</span><br><span class="line">        $aStatus = curl_getinfo($ch);</span><br><span class="line">        //关闭连接</span><br><span class="line">        curl_close($ch);</span><br><span class="line">        if(intval($aStatus[&quot;http_code&quot;])==200)&#123;</span><br><span class="line">            // return json_decode($str);</span><br><span class="line">            return $str;</span><br><span class="line">        &#125;else&#123;</span><br><span class="line">            return false;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></p>
-<p>使用方法：<br><code>$res= Request::instance()-&gt;send($url, true, &#39;get&#39;);</code></p>
-<p>2，表单提交时检测变量是否设置。  写法不一样，突然看到另一种写法懵圈了。</p>
-<p>用has检测:<code>Request::instance()-&gt;has(&#39;id&#39;,&#39;get&#39;);</code></p>
-<p>助手函数：<code>input(&#39;?get.id&#39;);</code> <code>input(&#39;?post.name&#39;);</code></p>
-<p>3,表单提交用于获取变量。</p>
-<p>(1).parm 自动识别多种请求 </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">// 获取当前请求的name变量</span><br><span class="line">Request::instance()-&gt;param(&apos;name&apos;);</span><br><span class="line">// 获取当前请求的所有变量（经过过滤）</span><br><span class="line">Request::instance()-&gt;param();</span><br></pre></td></tr></table></figure>
-<p>(2) 助手函数<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">input(&apos;name&apos;);</span><br><span class="line">input(&apos;&apos;);</span><br></pre></td></tr></table></figure></p>
-<p>4,</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1799,7 +1809,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">15</span>
+                  <span class="site-state-item-count">16</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -1810,7 +1820,7 @@
               
               <div class="site-state-item site-state-categories">
                 
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">分类</span>
                 
               </div>
