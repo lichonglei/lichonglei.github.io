@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[关于人工智能]]></title>
+    <url>%2F2018%2F09%2F08%2F%E5%85%B3%E4%BA%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%2F</url>
+    <content type="text"><![CDATA[以下是对所学习了解的知识做的一个总结。 毫无疑问，近来云计算，大数据，人工智能很火。但是这些东西，并不是突然就冒出来的。 人工智能早在上个世纪六十年代就已经提出来，而云计算和大数据的概念，在十年前。 得益于技术进步，CPU，存储，网络的快速发展，基于虚拟化和调度的云计算便有了发展的舞台，网络的发展带来的海量数据以及数据存储，如何利用这些数据催生了大数据。而人工智能，在前两者的基础上，依托大量数据，训练机器去学习并记忆人的处理方式。 人工智能最先运用甚至颠覆的行业： 互联网、金融、教育（李开复） 最有可能被淘汰的岗位： 目前机器是不擅长的情感，不具备创新等人类特有的性质。所以，从事文学创作等精神劳动的不易被淘汰？从新闻里了解，无人驾驶已经有应用了，未来是不是司机这个岗位就要被替代了。就像功能机到智能机，短短几年就已经翻天覆地，不存在平滑过渡。因为优势太明显了。 十年？二十年？不敢想象。 人工智能学习路线： 1，数学相关 -微积分、线性代数、离散数学、概率与数理统计 2，python相关 3，机器学习 4，深度学习]]></content>
+      <categories>
+        <category>人工智能</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[git commit message 50/70原则]]></title>
     <url>%2F2018%2F08%2F30%2Fgit-commit-message-50-70%E5%8E%9F%E5%88%99%2F</url>
     <content type="text"><![CDATA[以往提交代码的时候,一般是分三步.123451, git add *2, git commit -m &quot;fix one&apos;s bug&quot;3, git push origin master 可以省略一步，变为，1231，git commit -am &quot;fix one&apos;s bug&quot; // -a 即指的是add2, git push origin master 也可以，11，git add * &amp;&amp; git commit -m &quot;gix one&apos;s bug&quot; &amp;&amp; git push origin master . (当然这样的问题，打字还是多，其次如果之前提交过，再提交，前面的返回false，后面就不会触发) 下面再说，提交信息的填写。1，why主要是方便以后复查代码，容易快速的把握整体，包括团队开发中的合作。 2，how 在git bash 里，git commit -m ‘ (加一个单引号，这样可以添加多行，结束以一个单引号结束) 3，方法（50、70） 首先，为什么做出修改。（简短描述,50以内,以下70以内） ==空格（用于排版，方便阅读） 此次，如何改的？（改了哪些东西） ==空格 最后，会对哪些模块产生影响。]]></content>
