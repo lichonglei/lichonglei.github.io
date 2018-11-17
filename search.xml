@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[what's process]]></title>
+    <url>%2F2018%2F11%2F17%2Fwhat-s-process%2F</url>
+    <content type="text"><![CDATA[如果一件概念不能用简单的语言来描述的话，那么你就不是已经掌握了。 操作系统里，进程的概念：为正在运行的程序的一个抽象。 举例：一个厨师做菜。参照的菜谱可以称之为程序源码，各种食材配料称之为输入数据，厨师本人则是CPU。进程就是厨师阅读菜谱，准备食材配料，炒菜，出锅等一系列操作的总和。 进程的状态：运行，就绪，阻塞。 进程的四种转换]]></content>
+      <categories>
+        <category>操作系统</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[php 反射]]></title>
     <url>%2F2018%2F11%2F06%2Fphp-%E5%8F%8D%E5%B0%84%2F</url>
     <content type="text"><![CDATA[学习框架的时候处理依赖注入会用到反射，但是对反射的概念不了解。PHP实现的发射，是内置的不需要安装扩展。不太懂为什么叫反射，在数学里反射应该是一个变量映射到另一个变量。PHP里的反射指的是，在PHP运行中，动态获取程序的信息以进行分析，包括获取关于类、方法、参数等，相应的提供这些功能的方法称为反射API。 相关点：依赖注入：就是一个类中不在构造函数或方法里实例化另一个类，而是直接将实例注入到这个类中。 服务容器：进行实例化和参数配置。]]></content>
